@@ -1,0 +1,20 @@
+{
+  "name": "RCA Office",
+  "homepage": "https://github.com/katomoriak/RcaOfficenew",
+  "authors": [
+    "katomoriak <marcospauloliv@gmail.com>"
+  ],
+  "description": "Criação site RCA Office",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
