@@ -3,8 +3,8 @@ var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 
 // task para o sass
-gulp.task('sass', function() {
-    return gulp.src('sass/**/*.sass')
+gulp.task('sass', function () {
+    return gulp.src('sass/*.sass')
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(gulp.dest('css'));
 });
